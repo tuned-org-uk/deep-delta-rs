@@ -4,7 +4,7 @@ Rust + [Burn](https://burn.dev) implementation of **Deep Delta Learning** (DDL) 
 
 This repository provides:
 - Core Delta operator (`delta_update`) for matrix-valued states.
-- Generator branches for \(k(X)\), \(\beta(X)\), and \(v(X)\).
+- Generator branches for $(k(X)\), \(\beta(X))$, and $(v(X))$.
 - A `DeltaResidual` block (Delta-Res) that wraps branches + the Delta update.
 
 ## What is Delta-Res?

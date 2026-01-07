@@ -11,9 +11,9 @@ This repository provides:
 
 The Delta-Res update is a rank-1 residual transformation:
 
-- Input state: \(X \in \mathbb{R}^{B \times D \times V}\)
-- Parameters from branches: \(k \in \mathbb{R}^{B \times D}\), \(\beta \in \mathbb{R}^{B \times 1}\), \(v \in \mathbb{R}^{B \times V}\)
-- Update: \(X_{l+1} = X_l + \beta(X_l) k(X_l) (v(X_l)^T - k(X_l)^T X_l)\)
+- Input state: $(X \in \mathbb{R}^{B \times D \times V})$
+- Parameters from branches: $(k \in \mathbb{R}^{B \times D}\), \(\beta \in \mathbb{R}^{B \times 1}\), \(v \in \mathbb{R}^{B \times V})$
+- Update: $(X_{l+1} = X_l + \beta(X_l) k(X_l) (v(X_l)^T - k(X_l)^T X_l))$
 
 ## Shape conventions (Burn)
 
